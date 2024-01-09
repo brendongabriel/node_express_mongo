@@ -1,6 +1,6 @@
-import express from 'express';
-import conectDatabase from './config/dbConnect.js';
-import router from './routes/index.js';
+import express from "express";
+import conectDatabase from "./config/dbConnect.js";
+import router from "./routes/index.js";
 
 const connect = await conectDatabase();
 
